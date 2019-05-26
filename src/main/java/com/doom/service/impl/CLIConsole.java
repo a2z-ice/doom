@@ -113,12 +113,12 @@ public class CLIConsole implements UIService {
 
 	@Override
 	public void displayCorrectweaponMessage() {
-		System.out.println("Correct weapon! You have got one Monster down.");
+		System.out.println(">>>>>>>>>>Correct weapon! You have got one Monster down.");
 	}
 
 	@Override
 	public void displayInCorrectAnswerMessage() {
-		System.out.println("Wrong weapon selection! Try again");
+		System.out.println(">>>>>>>>>>Wrong weapon selection! Try again");
 	}
 
 	public boolean isExit() {

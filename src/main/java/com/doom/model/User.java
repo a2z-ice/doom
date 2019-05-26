@@ -25,7 +25,7 @@ public class User {
 	public User(String name) {
 		this.name = name;
 		this.level = 1;
-		this.life=100;
+		this.life=3;
 		this.score = 0;
 
 	}

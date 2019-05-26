@@ -1,4 +1,11 @@
 insert into users (name,level,life,score) values('Mostofa',1,3,0);
-insert into rules values(1, 'Shoot by sniper','SNIPER', 4);
-insert into rules values(2, 'Shoot by pistol','PISTOL', 2);
-insert into rules values(3, 'Use by knife','KNIFE', 5);
+insert into rules values(1, 'A Monster is 1000 meters away you have to kill that','SNIPER', 1);
+insert into rules values(2, 'Two Monsters are comming twords you kill them','PISTOL', 2);
+insert into rules values(3, 'A Monster near you behind the wall, kill it silently','KNIFE', 1);
+insert into rules values(4, 'Some Monsters are comming twords you kill them ASAP','PISTOL', 1);
+insert into rules values(5, 'A Monster in font of you kill it','PISTOL', 2);
+insert into rules values(6, 'A Monster gurding some citizen kill it from far way','SNIPER', 2);
+insert into rules values(7, 'A Monster going to kill some citizen shot it','PISTOL', 4);
+insert into rules values(8, 'Kill the Monster very carefylly so that other Monster is unware','KNIFE', 5);
+insert into rules values(9, 'Kill the Mosters quickly','PISTOL', 6);
+insert into rules values(10, 'Kill the Monsters who are far away from you','SNIPER', 7);
