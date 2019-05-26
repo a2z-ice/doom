@@ -73,7 +73,7 @@ public class CLIConsole implements UIService {
 	}
 
 	private void printHeader() {
-		System.out.println("Select a user from the following");
+		System.out.println("Select any number from the following menu and then press <return>:");
 		System.out.println("----------------------------------");
 		System.out.println("\tName\tLevel\tLife");
 		System.out.println("----------------------------------");
